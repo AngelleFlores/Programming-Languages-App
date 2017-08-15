@@ -1,0 +1,20 @@
+Java_Integer variables_typeName variableName = value;_int count = 0;
+Java_Concatenation_Use + sign_System.out.println("Total: " + total);
+Java_Main program_public class ClassName { public static void main(String[] args){...} }_public class Hello { public static void main(String[] args){ System.out.println("Hello World"); } }
+Java_For loop_for (initialize; condition; increment){...}_for (int i = 1; i<=10; i++){ int d = i * 2; System.out.println("" + d); }
+Java_While loop_while(condition){...}_while(count < 5){ System.out.println("" + count); count++; }
+C++_Integer variables_typeName variableName = value;_int width = 10;
+C++_Concatenation_Use + sign_cout << "Total: " + total << endl;
+C++_Main program_#include <header> using namespace std; int main(){...}_#include <iostream> using namespace std; int main(){ cout << "Hello World"; return 0; }
+C++_For loop_for (initialize; condition; increment){...}_for (int i = 1; i<=10; i++){ int d = i * 2; cout << d << endl; }
+C++_While loop_while(condition){...}_while(count < 5){ cout << count << endl; count++; }
+Python_Integer variables_variableName = value_number = 5
+Python_Concatenation_Use + sign_print "Total: " + total
+Python_Main program_Does not have a "main" function. Python programs are evaluated top to bottom._print "Hello World"
+Python_For loop_for iteratingVar in sequence:    ..._for i in range(1,11):    d = i * 2    print d
+Python_While loop_while condition:    ..._while count < 5:    print count    count += 1
+LISP_Integer variables_(setq variableName value)_(setq x 2)
+LISP_Concatenation_Use concatenate function_(write-line (concatenate 'string "Total: " total))
+LISP_Main program_Does not have a "main" function. LISP programs are evaluated from top to bottom._(write-line "Hello World")
+LISP_For loop_(loop for loop-variable from value1 to value2 do (action))_(loop for i from 1 to 10 for d = (* i 2) do (print d))
+LISP_While loop_(loop(s-expressions))_(loop (terpri) (write count) (setq count (+ count 1)) (when (> count 4)(return count)) )
